@@ -6,9 +6,5 @@ Shiken project using node js (training)
 2. cd shiken
 3. npm install
 4. npm install --save-dev nodemon
-5. Add nodemon to avoid stop and restart many time
-"scripts": {
-    "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
-}
+5. Add "devstart": "nodemon ./bin/www" to scripts to avoid stop and restart many time
 6. DEBUG=shiken:* npm run devstart
